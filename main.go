@@ -20,8 +20,6 @@ func healthHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("OK"))
 }
 
-type 
-
 func main() {
 	// Initialize database
 	db := initDB()
